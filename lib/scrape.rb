@@ -9,7 +9,7 @@ module ScrapeInit
   end
 end
 
-class Scrape
+class Scrape < ScrapeInstruction
   attr_accessor :url
 
   include ScrapeInit

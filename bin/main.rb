@@ -41,4 +41,4 @@ end
 
 mn = Scrape.new(url)
 
-puts mn.parts
+puts mn.instruction
