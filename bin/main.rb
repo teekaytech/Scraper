@@ -2,22 +2,6 @@ require './lib/scrape.rb'
 require 'nokogiri'
 require 'httparty'
 
-
-notice =
-<<-begin 
-This app scrapes COVID19 reported cases throughout the world.
-It sources data from https://covid19.feghas.com/
-begin
-
-instruction = 
-<<-eos
-Enter:
-1 for scrapiing cases in Nigeria only.
-2 for scraping total cases in the world.
-3 for scraping by country or region.
-...any other key to EXIT the app"
-eos
-
 # Fetch and parse HTML document
 url = 'https://javascript.info/'
 unparsed_page = HTTParty.get(url)
@@ -53,4 +37,8 @@ categories.each do |cat|
   end
 end
 
-puts category_url
+# puts category_url
+
+mn = Scrape.new(url)
+
+puts mn.parts

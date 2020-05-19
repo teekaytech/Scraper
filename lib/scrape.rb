@@ -1,17 +1,25 @@
+require_relative 'scrape_instruction'
 require 'nokogiri'
-require 's_module'
+require 'httparty'
+
+module ScrapeInit
+  def parsed_page(url)
+    unparsed_page = HTTParty.get(url)
+    Nokogiri::HTML(unparsed_page)
+  end
+end
 
 class Scrape
   attr_accessor :url
 
-  extend ScrapeInit
+  include ScrapeInit
 
   def initialize(url)
     @url = url
   end
 
   def parts
-    parsed_page = ScrapeInit::parsed_page(url)
+    parsed = parsed_page(@url)
   end
 end
 
