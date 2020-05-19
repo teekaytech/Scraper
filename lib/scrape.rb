@@ -18,8 +18,16 @@ class Scrape < ScrapeInstruction
     @url = url
   end
 
-  def parts
+  def complete_page
     parsed = parsed_page(@url)
   end
+
+  def parts
+    all_parts = complete_page.css('section.frontpage-content__container')
+    parts_arr = Array.new
+    all_parts.each { |part| parts_arr << part.css('h2.frontpage-content__title').text }
+    parts_arr
+  end
+  
 end
 
