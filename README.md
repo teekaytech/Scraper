@@ -1,6 +1,6 @@
 # Web-Scraper - Ruby Capstone Project
 
-This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here].(https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
+This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here](https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8).
 
 ## Built with
   * Ruby 
@@ -72,7 +72,7 @@ Contributions, issues and feature requests are welcome!
    2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
    3. Commit your Changes (git commit -m 'Add some AmazingFeature')
    4. Push to the Branch (git push origin feature/AmazingFeature)
-   5. Open a Pull Request
+   5. Open a Pull Request.<br>
 Feel free to check the [issues page](issues/).
 
 ## Show your support
