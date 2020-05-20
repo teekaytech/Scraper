@@ -20,7 +20,7 @@ Please Note that you must have github installed on your PC, this can be done [he
 
 ### Prerequisites
 
-Since all the code is written using ruby, `Ruby Runtime >= 1.9` is required to interpret the code. If you don't have ruby runtime already setup on your computer, follow the instruction for your specific operating system on the [official installation guide](https://www.ruby-lang.org/en/documentation/installation/)
+Since all the code is written using ruby, `Ruby Runtime >= 1.9` is required to interpret the code. If you don't have ruby runtime already setup on your computer, follow the instruction for your specific operating system on the [official installation guide](https://www.ruby-lang.org/en/documentation/installation/). **Internet Connection is a must, for successful scraping**
 
 ### Usage
 
