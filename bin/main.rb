@@ -18,8 +18,11 @@ when 2
   puts "The tutorial is divided into #{cats.count} Categories:"
   cats.each_with_index { |cat, i| puts "#{i + 1}. #{cat}"}
 when 3
-  puts "Categories with URL"
+  puts "All Categories with URL: \n"
+  new_scrape.categories_with_url.each do |cat_url|
+    cat_url.each { |cat, url| puts "#{cat} #{url} " }
+    puts ''
+  end
 else
-  puts 'Thank you.'
+  puts new_scrape.end_scrape
 end
-# puts mn.categories_with_url
