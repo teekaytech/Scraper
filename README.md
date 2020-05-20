@@ -1,13 +1,13 @@
 # Web-Scraper - Ruby Capstone Project
 
-This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here](https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
+This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here].(https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
 
 ## Built with
   * Ruby 
-  * Nokogiri
+  * Nokogiri gem
   * Linter (Stickler, Rubocop)
-  * Httparty
-  * VS Code
+  * Httparty gem
+  * Rspec gem
 
 ## Getting Started
 
@@ -36,7 +36,10 @@ After cloning on your computer, open the folder using your terminal/command prom
 `bin/main.rb`
 
 ### Web Scraping :: Introduction
-Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may access the World Wide Web directly using the Hypertext Transfer Protocol, or through a web browser. [read-more](https://en.wikipedia.org/wiki/Web_scraping)
+Web scraping, web harvesting, or web data extraction is data scraping used for extracting data from websites. Web scraping software may access the World Wide Web directly using the Hypertext Transfer Protocol, or through a web browser. [read-more](https://en.wikipedia.org/wiki/Web_scraping). 
+
+### Why I chose this scraper
+I chose to scrape [this website](https://javascript.info) because this resource have been important to my personal development before my microverse days. I love the way in which the tutorials are structured and it really helped me during my coding challenges in the application process. Right now, I still visit the website and I believe this scraper will be a major player to my development when I get to JavaScript Module.
 
 ### How to use the Scraper
 - The app scrapes a webpage consisting of a Complete JavaScript Modern Tutorial, their categories with the links respectively.
@@ -44,20 +47,16 @@ Web scraping, web harvesting, or web data extraction is data scraping used for e
 - Users can decide to use any of the three scrape options available.
 - When the app is started (`bin/main.rb`), the app instructs the user to choose from the displayed options.<br>
 ![screenshot](/assets/img/shot1.png)
-
 - Depending on the option selected, the user gets the result of the scraping process. For option 1:<br>
 ![screenshot](/assets/img/shot2.png)
-
 - For option 2:<br>
 ![screenshot](/assets/img/shot3.png)
-
 - For option 3:<br>
 ![screenshot](/assets/img/shot4.png)
-
 - Inserting any other value aside these three options will terminate the app.
 
 *Note: The app requires internet connection for successful scraping!*
-
+- Test cases can be executed by running the `rspec` command on the terminal/command prompt.
 
 ## Author
 
