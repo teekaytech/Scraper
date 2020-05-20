@@ -1,13 +1,18 @@
 require './lib/scrape'
+require './lib/scrape_instruction'
 
 describe Scrape do
-  # let(:player) { Player.new('player1') }
-  # let(:player2) { Player.new('player2', 2) }
+  let(:test_scrape) { Scrape.new('https://javascript.info') }
 
-  # describe '#icon' do
-  #   it 'returns the icon that represents player1' do
-  #     expect(player.icon).to eql('X')
-  #   end
+  it 'inherits behavior from the superclass ScrapeInstruction' do
+    expect(Scrape.superclass).to eq(ScrapeInstruction)
+  end
+
+  describe '#complete_page' do
+    it 'is expected to return a Nokogiri object type' do
+      expect(test_scrape.complete_page.class).to eql(Nokogiri::HTML::Document)
+    end
+  end
 
   #   it 'returns the icon that represents a player2' do
   #     expect(player2.icon).to eql('O')
@@ -25,4 +30,5 @@ describe Scrape do
   #     expect(player.false_move_message).to eql('Invalid move by player1, try again!')
   #   end
   # end
-# end
+end
+

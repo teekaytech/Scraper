@@ -17,7 +17,7 @@ class Scrape < ScrapeInstruction
   def parts
     parts_arr = Array.new
     fetch_parts.each { |part| parts_arr << part.css('h2.frontpage-content__title').text }
-    parts_arr
+    parts_arrx
   end
 
   def categories_title
@@ -62,3 +62,5 @@ class Scrape < ScrapeInstruction
 
 end
 
+# test = Scrape.new('https://javascript.info')
+# puts test.complete_page.class
