@@ -2,6 +2,13 @@
 
 This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum.
 
+## Built with
+  * Ruby 
+  * Nokogiri
+  * Linter (Stickler, Rubocop)
+  * Httparty
+  * VS Code
+
 ## Getting Started
 
 To get a local copy up and running follow these simple steps.
@@ -61,9 +68,12 @@ Web scraping, web harvesting, or web data extraction is data scraping used for e
 - Linkedin: [linkedin](https://linkedin.com/in/teekaytech)
 
 ## 🤝 Contributing
-
 Contributions, issues and feature requests are welcome!
-
+   1. Fork the Project
+   2. Create your Feature Branch (git checkout -b feature/AmazingFeature)
+   3. Commit your Changes (git commit -m 'Add some AmazingFeature')
+   4. Push to the Branch (git push origin feature/AmazingFeature)
+   5. Open a Pull Request
 Feel free to check the [issues page](issues/).
 
 ## Show your support
