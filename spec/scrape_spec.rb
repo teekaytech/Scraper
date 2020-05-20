@@ -9,7 +9,7 @@ describe Scrape do
   end
 
   describe '#complete_page' do
-    it 'is expected to return a Nokogiri object type' do
+    it 'is expected to return a Nokogiri object type, from the module' do
       expect(test_scrape.complete_page.class).to eql(Nokogiri::HTML::Document)
     end
   end
