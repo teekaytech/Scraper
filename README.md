@@ -1,6 +1,6 @@
 # Web-Scraper - Ruby Capstone Project
 
-This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum.
+This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here](https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8)
 
 ## Built with
   * Ruby 
@@ -56,7 +56,7 @@ Web scraping, web harvesting, or web data extraction is data scraping used for e
 
 - Inserting any other value aside these three options will terminate the app.
 
-## Note: The app requires internet connection for successful scraping.
+*Note: The app requires internet connection for successful scraping!*
 
 
 ## Author
@@ -89,6 +89,5 @@ This project is [MIT](lic.url) licensed.
 - [Microverse](https://microverse.pathwright.com/library/fast-track-curriculum/69047/path/step/57421589/)
 - [The Odin Project](https://www.theodinproject.com/courses/ruby-programming/lessons/basic-enumerable-methods#learning-outcomes)
 - [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-- [Hitesh Choudhary](https://www.youtube.com/watch?v=qU_gdQ1FvjM)
 - [Web Scraping from Wikipedia](https://en.wikipedia.org/wiki/Web_scraping)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
