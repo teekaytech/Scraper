@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require './lib/scrape.rb'
 
 url = 'https://javascript.info'
