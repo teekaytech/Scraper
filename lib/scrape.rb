@@ -11,11 +11,11 @@ class Scrape < ScrapeInstruction
   end
 
   def complete_page
-    parsed = parsed_page(@url)
+    parsed_page(@url)
   end
 
   def parts
-    parts_arr = Array.new
+    parts_arr = []
     fetch_parts.each { |part| parts_arr << part.css('h2.frontpage-content__title').text }
     parts_arr
   end
@@ -28,11 +28,11 @@ class Scrape < ScrapeInstruction
 
   def categories_with_url
     cat_with_url = []
-    categories.each do |category| 
+    categories.each do |category|
       sub_url = category.css('div.list__title a').map { |link| link['href'] }
       cat = {
         title: category.text,
-        url: @url+sub_url[0]
+        url: @url + sub_url[0]
       }
       cat_with_url << cat
     end
@@ -40,7 +40,7 @@ class Scrape < ScrapeInstruction
   end
 
   def categories
-    categories = Array.new
+    categories = []
     fetch_categories.each do |cat|
       cat_node = cat.css('div.list__item')
       cat_node.each do |node|
@@ -50,7 +50,7 @@ class Scrape < ScrapeInstruction
     categories
   end
 
-  private 
+  private
 
   def fetch_categories
     complete_page.css('div.list')
@@ -59,5 +59,4 @@ class Scrape < ScrapeInstruction
   def fetch_parts
     complete_page.css('section.frontpage-content__container')
   end
-
 end

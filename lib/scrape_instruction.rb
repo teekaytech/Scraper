@@ -20,6 +20,6 @@ class ScrapeInstruction
   end
 
   def end_scrape
-    "Thank you. Scraping Terminates!"
+    'Thank you. Scraping Terminates!'
   end
 end

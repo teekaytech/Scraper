@@ -18,17 +18,17 @@ describe ScrapeInstruction do
   end
 
   describe '#instruction' do
-    expected = 
-    <<-INS
+    expected =
+      <<-INS
     Enter:
     1 for scraping the basic sections.
     2 for scraping the categories under each section.
     3 for scraping by categories with their URL.
     ...any other key to EXIT the app: \n
-    INS
+      INS
 
     it 'returns a message that matches the expected' do
-      expect(test.instruction).to match (expected)
+      expect(test.instruction).to match(expected)
     end
 
     it 'returns the instruction message for the scraper, which must be a string' do
