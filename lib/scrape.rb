@@ -1,5 +1,5 @@
 require_relative 'scrape_instruction'
-require_relative 's_module'
+require_relative 'scrape_init'
 
 class Scrape < ScrapeInstruction
   attr_accessor :url
