@@ -30,7 +30,7 @@ while continue
     puts new_scrape.error_msg
   end
 
-  print "\nWould you like to continue scraping? (Press anykey for Yes, 'N' for No): "
+  print "\nWould you like to continue scraping? (Press anykey to continue, 'N' for No): "
   if gets.chomp.upcase == 'N'
     continue = false
     puts new_scrape.end_scrape
