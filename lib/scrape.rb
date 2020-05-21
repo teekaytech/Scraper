@@ -10,10 +10,6 @@ class Scrape < ScrapeInstruction
     @url = url
   end
 
-  def complete_page
-    parsed_page(@url)
-  end
-
   def parts
     parts_arr = []
     fetch_parts.each { |part| parts_arr << part.css('h2.frontpage-content__title').text }
@@ -39,6 +35,12 @@ class Scrape < ScrapeInstruction
     cat_with_url
   end
 
+  private
+
+  def complete_page
+    parsed_page(@url)
+  end
+
   def categories
     categories = []
     fetch_categories.each do |cat|
@@ -49,8 +51,6 @@ class Scrape < ScrapeInstruction
     end
     categories
   end
-
-  private
 
   def fetch_categories
     complete_page.css('div.list')
