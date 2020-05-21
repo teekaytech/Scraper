@@ -90,3 +90,4 @@ This project is [MIT](lic.url) licensed.
 - [GitHub](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 - [Web Scraping from Wikipedia](https://en.wikipedia.org/wiki/Web_scraping)
 - [The Modern JavaScript Tutorial](https://javascript.info/)
+[![Run on Repl.it](https://repl.it/badge/github/teekaytech/Scraper)](https://repl.it/github/teekaytech/Scraper)
