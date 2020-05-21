@@ -2,7 +2,7 @@ require_relative 'scrape_instruction'
 require_relative 'scrape_init'
 
 class Scrape < ScrapeInstruction
-  attr_accessor :url
+  attr_reader :url
 
   include ScrapeInit
 
