@@ -3,6 +3,7 @@ AllCops:
     - "README.md"
     - "Guardfile"
     - "Rakefile"
+    - "spec/spec_helper.rb"
 
   DisplayCopNames: true
 
@@ -49,4 +50,3 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-  
