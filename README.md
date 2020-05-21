@@ -11,7 +11,7 @@ This project aims to develop a Web Scraper using Ruby. It is a capstone project 
   * Httparty gem
   * Rspec gem
 
-[Watch Video Here](https://www.loom.com/share/4c4f4b96f7094d3c8d80dc97b9a2794c)
+[Watch Video Demo Here](https://www.loom.com/share/4c4f4b96f7094d3c8d80dc97b9a2794c)
 
 ## Getting Started
 
@@ -62,7 +62,7 @@ I chose to scrape [this website](https://javascript.info) because this resource 
 *Note: The app requires internet connection for successful scraping!*
 
 ### Running the Automated Test
-**RSpec gem was used for the automated testing. , do the following:**
+**RSpec gem was used for the automated testing.**
 To run the test cases, 
 - Open your terminal/command prompt
 - Type `rspec` on the terminal and press the enter button.
