@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require './lib/scrape.rb'
+require_relative '../lib/scrape.rb'
 
 url = 'https://javascript.info'
 new_scrape = Scrape.new(url)
