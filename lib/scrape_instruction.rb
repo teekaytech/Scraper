@@ -22,4 +22,8 @@ class ScrapeInstruction
   def end_scrape
     'Thank you. Scraping Terminates!'
   end
+
+  def error_msg
+    'Invalid input, read the instruction and try again.'
+  end
 end
