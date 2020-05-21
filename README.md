@@ -2,12 +2,16 @@
 
 This project aims to develop a Web Scraper using Ruby. It is a capstone project that marks the completion of Ruby module in Microverse technical curriculum. The full project specification can be found [here](https://www.notion.so/Build-your-own-scraper-f54eaca54d8a4d758a5f0141468127a8).
 
+![screenshot](/assets/img/code.png)
+
 ## Built with
   * Ruby 
   * Nokogiri gem
   * Linter (Stickler, Rubocop)
   * Httparty gem
   * Rspec gem
+
+[Watch Video Here](https://www.loom.com/share/4c4f4b96f7094d3c8d80dc97b9a2794c)
 
 ## Getting Started
 
@@ -56,7 +60,12 @@ I chose to scrape [this website](https://javascript.info) because this resource 
 - Inserting any other value aside these three options will terminate the app.
 
 *Note: The app requires internet connection for successful scraping!*
-- Test cases can be executed by running the `rspec` command on the terminal/command prompt.
+
+### Running the Automated Test
+**RSpec gem was used for the automated testing. , do the following:**
+To run the test cases, 
+- Open your terminal/command prompt
+- Type `rspec` on the terminal and press the enter button.
 
 ## Author
 
