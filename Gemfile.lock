@@ -1,0 +1,40 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.0)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.6)
+    mini_portile2 (2.4.0)
+    multi_xml (0.6.0)
+    nokogiri (1.10.9)
+      mini_portile2 (~> 2.4.0)
+    parallel (1.19.1)
+    parser (2.7.1.2)
+      ast (~> 2.4.0)
+    rainbow (3.0.0)
+    rexml (3.2.4)
+    rubocop (0.84.0)
+      parallel (~> 1.10)
+      parser (>= 2.7.0.1)
+      rainbow (>= 2.2.2, < 4.0)
+      rexml
+      rubocop-ast (>= 0.0.3)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.0.3)
+      parser (>= 2.7.0.1)
+    ruby-progressbar (1.10.1)
+    unicode-display_width (1.7.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  httparty (~> 0.13.7)
+  nokogiri (~> 1.10, >= 1.10.9)
+  rubocop (~> 0.84.0)
+
+BUNDLED WITH
+   2.1.4
